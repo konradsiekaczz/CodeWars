@@ -1,4 +1,4 @@
-package com.konrad;
+
 
 public class TrainingOnBitCounting {
 
@@ -7,7 +7,10 @@ public class TrainingOnBitCounting {
     // You can guarantee that input is non-negative.
 
     public static void main(String[] args) {
+
         int number = 7;
+        System.out.println(Integer.toBinaryString(number));
+
         System.out.println(countBits2(number));
     }
 
