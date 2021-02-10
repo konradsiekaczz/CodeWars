@@ -45,7 +45,7 @@ public class DoubleSort {
         return Stream.concat(Arrays.stream(a).filter((x) -> x instanceof Number).map((x) -> (Number) x).sorted(),
                 Arrays.stream(a).filter((x) -> x instanceof String).map((x) -> (String) x).sorted()).toArray();
     }
-k
+
     public static Object[] dbSort2(Object[] a) {
         Stream b = Stream.of(a).filter(Integer.class::isInstance).sorted();
         Stream c = Stream.of(a).filter(String.class::isInstance).sorted();
