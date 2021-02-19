@@ -1,9 +1,6 @@
 import java.util.ArrayList;
 import java.util.Collections;
 import java.util.List;
-import java.util.Map;
-
-import static java.lang.StrictMath.pow;
 
 /**
  * Some numbers have funny properties. For example:
